@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import "tailwindcss";
+
+* html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.gradient-bg-welcome {
+    background-color: #0a1a12;
+    /* Dark greenish base */
+    background-image:
+        radial-gradient(at 0% 0%, hsla(150, 20%, 10%, 1) 0, transparent 50%),
+        radial-gradient(at 50% 0%, hsla(160, 30%, 20%, 1) 0, transparent 50%),
+        radial-gradient(at 100% 0%, hsla(140, 40%, 25%, 1) 0, transparent 50%);
+}
+
+
+.gradient-bg-services {
+    background-color: #0a1a12;
+    /* Same dark greenish base */
+    background-image:
+        radial-gradient(at 0% 100%, hsla(150, 20%, 10%, 1) 0, transparent 50%),
+        radial-gradient(at 50% 100%, hsla(160, 30%, 20%, 1) 0, transparent 50%),
+        radial-gradient(at 100% 100%, hsla(140, 40%, 25%, 1) 0, transparent 50%);
+}
+
+
+.gradient-bg-transactions {
+    background-color: #0a1a12;
+    /* Same dark greenish base */
+    background-image:
+        radial-gradient(at 0% 0%, hsla(150, 20%, 10%, 1) 0, transparent 50%),
+        radial-gradient(at 50% 0%, hsla(160, 30%, 20%, 1) 0, transparent 50%),
+        radial-gradient(at 100% 0%, hsla(140, 40%, 25%, 1) 0, transparent 50%);
+}
+
+
+.gradient-bg-footer {
+    background-color: #000000;
+    /* Deep black base */
+    background-image:
+        radial-gradient(at 50% 100%, rgba(10, 10, 10, 1) 0%, rgba(0, 0, 0, 1) 60%),
+        linear-gradient(to top, rgba(5, 5, 5, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+
+.blue-glassmorphism {
+    background: rgb(39, 51, 89, 0.4);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.white-glassmorphism {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+    background-color: #b0e3a4;
+    /* Darker muted green base */
+    background-image:
+        radial-gradient(at 75% 55%, rgb(150, 220, 150) 0, transparent 50%),
+        radial-gradient(at 50% 20%, hsla(120, 55%, 55%, 1) 0, transparent 45%),
+        radial-gradient(at 90% 35%, hsla(140, 60%, 50%, 1) 0, transparent 50%),
+        radial-gradient(at 20% 75%, hsla(100, 55%, 45%, 1) 0, transparent 50%),
+        radial-gradient(at 40% 85%, rgb(193, 227, 216) 0, transparent 50%),
+        radial-gradient(at 60% 90%, hsla(120, 55%, 55%, 1) 0, transparent 50%),
+        radial-gradient(at 30% 65%, hsla(90, 75%, 42%, 1) 0, transparent 50%);
+}
+
+
+.text-gradient {
+    background-color: #fff;
+    background-image: radial-gradient(at 4% 36%, hsla(0, 0%, 100%, 1) 0, transparent 53%),
+        radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
