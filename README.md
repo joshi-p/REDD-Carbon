@@ -1,4 +1,4 @@
-# 🌍🔥 REDD Carbon - Decentralized Carbon Credit Marketplace  
+# REDD Carbon - Decentralized Carbon Credit Marketplace  
 
 ## 💡 Transforming Carbon Credit Trading with Blockchain  
 REDD Carbon is a **decentralized marketplace** for carbon credits, enabling **peer-to-peer trading** with **complete transparency, security, and fraud-proof verification** on the Ethereum blockchain.  
@@ -28,9 +28,9 @@ The tech-stack used or leveraged for our project here are Tailwind, React.js, Ty
 ---
 
 ## 🔮 Future Vision  
-- 🔹 **Stock Exchange for Carbon Credits** – Institutional & retail investor participation to boost liquidity.  
-- 🔹 **AI + IoT Integration** – Real-time validation using **IoT sensors, drones, and satellite imagery**.  
-- 🔹 **AI-Powered Price Optimization** – Smart forecasting models for efficient trading.  
+- **Stock Exchange for Carbon Credits** – Institutional & retail investor participation to boost liquidity.  
+- **AI + IoT Integration** – Real-time validation using **IoT sensors, drones, and satellite imagery**.  
+- **AI-Powered Price Optimization** – Smart forecasting models for efficient trading.  
 
 ---
 
