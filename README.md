@@ -44,11 +44,11 @@ The tech-stack used or leveraged for our project here are Tailwind, React.js, Ty
 ---
 
 ## 📜 Tech Stack  
-- 🛠 **Blockchain** – Ethereum & Smart Contracts (Solidity)  
+- 🛠 **Blockchain** – Ethereum Sepolia Testnet & Smart Contracts (Solidity)  
 - 💻 **Frontend** – TypeScript  
 - 📦 **Marketplace** – Decentralized Web Platform  
-- 🔗 **Wallet Integration** – MetaMask API  
-- ⚡ **Security** – Cryptographic verification  
+- 🔗 **Wallet Integration** – MetaMask API, Ethers.JS
+- ⚡ **Security** – Cryptographic verification
 
 ---
 
